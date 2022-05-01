@@ -1,0 +1,38 @@
+{
+  "manifest_version": 2,
+  "name": "__MSG_extName__",
+  "version": "1.0",
+  "default_locale" : "en",
+  "minimum_chrome_version" : "54",
+  "description": "__MSG_extDescription__",
+  "icons": {
+    "16": "/img/icon16.png",
+    "32": "/img/icon32.png",
+    "48": "/img/icon48.png",
+    "128": "/img/icon128.png"
+  },
+  "permissions": [
+    "tabs",
+    "storage",
+    "unlimitedStorage",
+    "<all_urls>"
+  ],
+  "content_security_policy":"script-src 'self' 'unsafe-eval'; worker-src 'self' data: blob:; object-src 'self'",
+  "background": {
+    "scripts": [
+      "back.js"
+    ],
+    "persistent": true
+  },
+  "content_scripts": [
+    {
+      "js":["js/jquery-3.6.0.min.js","js/jquery-ui-1.12.1.min.js","js/jquery.md5.js","js/util.js","js/ui.js","js/ssim.js"],
+      "css": ["css/ui.css"],
+      "matches":["<all_urls>"]
+    }
+  ],
+  "browser_action": {
+    "default_title": "__MSG_defaultTitle__"
+  },
+  "web_accessible_resources": ["img/*","front.js","qingfu_xuntu_client_d63a030a.js"]
+}

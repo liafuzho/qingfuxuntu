@@ -1,0 +1,125 @@
+{
+    "extName": {
+        "message": "青蚨寻图"
+    },
+    "extDescription": {
+        "message": "方便快速的在VCG、站酷海洛、Shutter、Dreams、Unsplash等多家主流图片库中以图搜图。"
+    },
+    "defaultTitle": {
+        "message": "青蚨寻图 -- 最方便以图搜图工具"
+    },
+    "searchInputTip":{
+        "message": "输入图片链接查找"
+    },
+    "searchInputClear":{
+        "message": "清空"
+    },
+    "searchUploadImage":{
+        "message": "上传图片"
+    },
+    "searchImage":{
+        "message": "搜索"
+    },
+    "searchErrorImageURL":{
+        "message": "不正确的图片链接"
+    },
+    "searchFail":{
+        "message": " 搜索失败!"
+    },
+    "stopSearch":{
+        "message": "点击停止搜索"
+    },
+    "viewSearchImage":{
+        "message": "点击查看搜索图片"
+    },
+    "returnSearch":{
+        "message": "点击返回"
+    },
+    "optionClickOne":{
+        "message": "单击选择图片"
+    },
+    "optionScreenshot":{
+        "message": "截屏"
+    },
+    "optionGatherModel":{
+        "message": "聚合模式"
+    },
+    "resultImageSource":{
+        "message": "图片来源"
+    },
+    "resultSimilarImage":{
+        "message": "相似图片"
+    },
+    "resultOrderBySimilar":{
+        "message": "按相似度排序"
+    },
+    "resultTipCopyright":{
+        "message": "版权图片"
+    },
+    "resultTipFree":{
+        "message": "免费图片"
+    },
+    "history":{
+        "message": "历史记录"
+    },
+    "historyClear":{
+        "message": "清空历史记录"
+    },
+    "historyNotHave":{
+        "message": "没有历史记录"
+    },
+    "historyEmptied":{
+        "message": "历史记录已清空！"
+    },
+    "setup":{
+        "message": "设置"
+    },
+    "setupReset":{
+        "message": "重置"
+    },
+    "setupCopyrightImages":{
+        "message": "图片库"
+    },
+    "remindImageProcess":{
+        "message": "图片处理……"
+    },
+    "remindImageProcessError":{
+        "message": "图片处理失败！"
+    },
+    "remindImageSearch":{
+        "message": "正在搜索……"
+    },
+    "remindProcessFail":{
+        "message": "处理失败"
+    },
+    "compareFail":{
+        "message": "比对失败。"
+    },
+    "compareError":{
+        "message": "比对发生错误"
+    },
+    "dragInfoFail":{
+        "message": "无法获取拖动信息！"
+    },
+    "dragFormatError":{
+        "message": "不支持的格式！"
+    },
+    "dragImagesNumberError":{
+        "message": "暂不支持多张图片！"
+    },
+    "compareNotFound":{
+        "message": "没有发现"
+    },
+    "optionBackTop":{
+        "message": "回到顶部"
+    },
+    "optionHelp":{
+        "message": "帮助"
+    },
+    "optionClose":{
+        "message": "关闭"
+    },
+    "optionReturn":{
+        "message": "返回"
+    }
+}

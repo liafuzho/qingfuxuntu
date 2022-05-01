@@ -1,0 +1,125 @@
+{
+    "extName": {
+        "message": "QingfuXuntu"
+    },
+    "extDescription": {
+        "message": "Easily and quickly search for pictures in many mainstream picture libraries such as Getty, Shutter, Adobe, Unsplash and Dreams."
+    },
+    "defaultTitle": {
+        "message": "QingfuXuntu -- easily and quickly search pictures"
+    },
+    "searchInputTip":{
+        "message": "enter picture link to find"
+    },
+    "searchInputClear":{
+        "message": "clean up"
+    },
+    "searchUploadImage":{
+        "message": "upload pictures"
+    },
+    "searchImage":{
+        "message": "search"
+    },
+    "searchErrorImageURL":{
+        "message": "incorrect picture link"
+    },
+    "searchFail":{
+        "message": " search failed!"
+    },
+    "stopSearch":{
+        "message": "click to stop search"
+    },
+    "viewSearchImage":{
+        "message": "click to view the search image"
+    },
+    "returnSearch":{
+        "message": "click to back"
+    },
+    "optionClickOne":{
+        "message": "select a picture"
+    },
+    "optionScreenshot":{
+        "message": "screenshot"
+    },
+    "optionGatherModel":{
+        "message": "gather model"
+    },
+    "resultImageSource":{
+        "message": "Image Source"
+    },
+    "resultSimilarImage":{
+        "message": "Similar Picture"
+    },
+    "resultOrderBySimilar":{
+        "message": "sort by similarity"
+    },
+    "resultTipCopyright":{
+        "message": "copyright"
+    },
+    "resultTipFree":{
+        "message": "free"
+    },
+    "history":{
+        "message": "History"
+    },
+    "historyClear":{
+        "message": "clear history"
+    },
+    "historyNotHave":{
+        "message": "empty"
+    },
+    "historyEmptied":{
+        "message": "emptied!"
+    },
+    "setup":{
+        "message": "Setup"
+    },
+    "setupReset":{
+        "message": "reset"
+    },
+    "setupCopyrightImages":{
+        "message": "Copyright Images"
+    },
+    "remindImageProcess":{
+        "message": "image processing……"
+    },
+    "remindImageProcessError":{
+        "message": "image processing failed!"
+    },
+    "remindImageSearch":{
+        "message": "searching……"
+    },
+    "remindProcessFail":{
+        "message": "processing failed"
+    },
+    "compareFail":{
+        "message": "comparison failed."
+    },
+    "compareError":{
+        "message": "error in comparison"
+    },
+    "dragInfoFail":{
+        "message": "unable to get drag information!"
+    },
+    "dragFormatError":{
+        "message": "unsupported format!"
+    },
+    "dragImagesNumberError":{
+        "message": "multiple pictures are not supported!"
+    },
+    "compareNotFound":{
+        "message": "not found"
+    },
+    "optionBackTop":{
+        "message": "back to the top"
+    },
+    "optionHelp":{
+        "message": "help"
+    },
+    "optionClose":{
+        "message": "close"
+    },
+    "optionReturn":{
+        "message": "return"
+    }
+}
