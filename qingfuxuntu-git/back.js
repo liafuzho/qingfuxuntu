@@ -156,47 +156,6 @@ Main.prototype = {
 	},
 }
 
-async function compareImg(imgs){
-	let idata = {'ts':1621418420,'tk':'6047b2344be241837f768c18f1b30114','img':[]};
-	if(Array.isArray(imgs)){
-		for(img of imgs){
-			idata['img'].push({'id':img['id'],'data':img['imb64_256']});
-		}
-	}else{
-		idata['img'].push({'id':imgs['id'],'data':imgs['imb64_256']});
-	}
-	let base_url = 'http://106.38.197.12:35020/warrior';
-	let rhead = new Headers();
-	rhead.append("Content-Type","application/json");
-	idata = JSON.stringify(idata);
-	let roption = {
-		method: 'POST',
-		headers: rhead,
-		body: idata,
-		redirect: 'follow',
-		responseType: 'json'
-	};
-	let response = await TOOLS.fetchTimeout(base_url,roption,30);
-	if (!response.ok){
-		throw new Error('compare image response was not ok.');
-	}
-	let result = await response.json();
-	if(result.state=='1'){
-		let nimgs = [];
-		for(res of result.ok){
-			let clues = [];
-			for(clue of res.result){
-				let iurl = 'http://img.zuopintong.com/tmp/'+clue[3];
-				let b64 = await TOOLS.getImgData(iurl).then(r=>r.data,err=>'error');
-				clues.push([clue[4],b64]);
-			}
-			nimgs.push({'iid':res.iid,'result':clues});
-		}
-		result.ok = nimgs;
-	}
-	return result;
-}
-
 chrome.extension.onRequest.addListener((request, sender, sendResponse)=>{
 	switch(request.type){
 		case 'search':
