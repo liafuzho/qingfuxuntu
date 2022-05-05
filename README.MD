@@ -11,4 +11,4 @@
 #### 安装完成！
 
 ## 授权
-### [Apache](http://www.apache.org/licenses/LICENSE-2.0) © Kevin Luo
+### [Apache](https://www.apache.org/licenses/LICENSE-2.0.txt) © Kevin Luo
